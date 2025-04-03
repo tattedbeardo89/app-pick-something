@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/app-pick-something/", // ✅ Correct for GitHub Pages
+  base: "/", // ✅ Correct for GitHub Pages
   define: {
     "process.env": {}, // ✅ Ensures compatibility
   },

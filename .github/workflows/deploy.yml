@@ -44,5 +44,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: main  # Deploy to main branch (change from gh-pages)
-        folder: dist   # Vite output directory
+        branch: gh-pages # Deploy to GitHub Pages branch
+        folder: dist # Vite output directory
